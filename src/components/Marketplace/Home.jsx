@@ -1,9 +1,11 @@
+import ItemWrapper from "./ItemWrapper"
 import Searchbar from "./Searchbar"
 
 const Home = () => {
     return (
-        <div className="flex w-screen h-screen">
+        <div className="flex flex-col w-screen h-screen">
             <Searchbar />
+            <ItemWrapper />
         </div>
     )
 }

@@ -12,7 +12,7 @@ const Navbar = () => {
         setIsOpen(!isOpen)
     }
     return (
-        <div className='h-auto bg-white z-50 w-full p-2 flex flex-wrap items-center justify-between'>
+        <div className='h-auto sticky top-0 bg-white z-50 w-full p-2 flex flex-wrap items-center justify-between'>
             <NavLink reloadDocument className="text-primary text-3xl md:text-6xl font-billabong">Selln</NavLink>
             <div className="hidden md:flex flex-row gap-5 text-primary">
                 <NavLinks />
@@ -36,7 +36,7 @@ function NavLinks() {
             <a className={navbarStyling} href="/#hero">Home</a>
             <a className={navbarStyling} href="/marketplace">Marketplace</a>
             <a className={navbarStyling} href="/account">Account</a>
-            <a className={navbarStyling} href="/cart"> <AiOutlineShoppingCart size={20} /></a>
+            <a className={navbarStyling} href="/cart">Cart</a>
         </div>
     )
 }
