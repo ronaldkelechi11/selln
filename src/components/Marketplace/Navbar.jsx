@@ -2,7 +2,6 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { AiOutlineMenu } from "react-icons/ai";
 import { FaX } from "react-icons/fa6";
-import { AiOutlineShoppingCart } from "react-icons/ai";
 
 const Navbar = () => {
 

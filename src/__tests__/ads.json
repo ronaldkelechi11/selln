@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "name": "Iphone 11",
+        "description": "Iphone 11 with Face id working. Battery health 100%. Small crack on the back glass.",
+        "price": "260,000",
+        "category": "Mobile Phones",
+        "dateOfUpload": "12th September, 2023",
+        "conditon": "Used",
+        "location": "Shop B17, Banex plaza, Wuse 2, Abuja.",
+        "image": [
+            "Profile Pic1.png",
+            "Profile Pic2.png",
+            "Profile Pic3.png"
+        ],
+        "ownerId": 1
+    },
+    {
+        "id": 2,
+        "name": "Lhasa Apso Male",
+        "description": "Male Lhasa Apso parlour dog 12 days old.2 Vaccines done.",
+        "price": "60,000",
+        "category": "Animals and Pets",
+        "dateOfUpload": "2th August, 2023",
+        "conditon": "",
+        "location": "Pankshin, Jos, Abuja.",
+        "image": [
+            "Profile Pic1.png",
+            "Profile Pic2.png",
+            "Profile Pic3.png"
+        ],
+        "ownerId": 32
+    }
+]
