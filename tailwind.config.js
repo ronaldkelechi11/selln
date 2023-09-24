@@ -15,10 +15,12 @@ export default {
         billabong: "Billabong"
       },
       backgroundImage: {
+        signupPattern: "url('/src/assets/signup.svg')",
+        signinPattern: "url('/src/assets/signin.svg')",
         wavePattern: "url('/src/assets/wave.svg')",
         shoppingOnline: "url('/src/assets/shopping_online.svg')",
         shoppingSales: "url('/src/assets/shopping_sales.jpg')",
-        ceo: "url('/src/assets/ceo.jpeg')"
+        ceo: "url('/src/assets/ceo.jpeg')",
       }
 
     },

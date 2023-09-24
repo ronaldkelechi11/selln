@@ -7,7 +7,6 @@ const Marketplace = () => {
         <div className='flex flex-col'>
             <Navbar />
             <Home />
-
         </div>
     )
 }
