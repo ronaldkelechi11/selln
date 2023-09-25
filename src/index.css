@@ -2,4 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-.my_input {}
+@font-face {
+    font-family: "Billabong";
+    src: url('/src/assets/fonts/billabong.ttf');
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url('/src/assets/fonts/poppins.ttf');
+}
