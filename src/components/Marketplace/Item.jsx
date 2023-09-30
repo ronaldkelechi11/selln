@@ -3,7 +3,7 @@ import { FaLocationPin } from "react-icons/fa6";
 const Item = ({ item }) => {
     return (
         <div className='w-full h-[250px] max-h-[300px] rounded-xl shadow-md flex flex-col justify-evenly p-3'>
-            <img src={item.image[0]} className='h-[100px]' alt="" />
+            <img src={item.image[0]} className='h-[100px] md:h-[120px]' alt="" />
             <div className="flex flex-row justify-center gap-1">
                 <span className='text-primary font-billabong text-xl'>N</span>
                 <div className="text-primary text-center font-billabong text-xl">{item.price}</div>
@@ -13,7 +13,7 @@ const Item = ({ item }) => {
 
             <div className="flex flex-row bg-grey rounded-xl p-2 self-start gap-1">
                 <FaLocationPin size={12} />
-                <div className="text-black font-billabong text-[12px]">{item.state}</div>
+                <div className="text-black font-bold font-billabong text-[12px]">{item.state}</div>
             </div>
         </div>
     )

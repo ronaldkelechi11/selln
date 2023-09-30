@@ -18,23 +18,23 @@
     },
     {
         "id": 2,
-        "name": "Lhasa Apso Male",
-        "description": "Male Lhasa Apso parlour dog 12 days old.2 Vaccines done.",
-        "price": "60,000",
-        "category": "Animals and Pets",
+        "name": "Iphone X",
+        "description": "",
+        "price": "160,000",
+        "category": "Mobile Phones",
         "dateOfUpload": "2th August, 2023",
-        "condition": "",
-        "location": "Pankshin, Jos.",
-        "state": "Jos",
+        "condition": "Used",
+        "location": "Shop B17, Banex plaza, Wuse 2, Abuja.",
+        "state": "Abuja",
         "image": [
-            "Profile Pic1.png",
-            "Profile Pic2.png",
-            "Profile Pic3.png"
+            "/src/__tests__/iphonex_1.jfif ",
+            "/src/__tests__/iphonex_2.jfif ",
+            "/src/__tests__/iphonex_1.jfif "
         ],
         "ownerId": 32
     },
     {
-        "id": 1,
+        "id": 3,
         "name": "Iphone 11",
         "description": "Iphone 11 with Face id working. Battery health 100%. Small crack on the back glass.",
         "price": "260,000",
@@ -51,7 +51,7 @@
         "ownerId": 1
     },
     {
-        "id": 1,
+        "id": 4,
         "name": "Iphone 11",
         "description": "Iphone 11 with Face id working. Battery health 100%. Small crack on the back glass.",
         "price": "260,000",
@@ -68,7 +68,7 @@
         "ownerId": 1
     },
     {
-        "id": 1,
+        "id": 5,
         "name": "Iphone 11",
         "description": "Iphone 11 with Face id working. Battery health 100%. Small crack on the back glass.",
         "price": "260,000",
@@ -85,7 +85,7 @@
         "ownerId": 1
     },
     {
-        "id": 1,
+        "id": 6,
         "name": "Iphone 11",
         "description": "Iphone 11 with Face id working. Battery health 100%. Small crack on the back glass.",
         "price": "260,000",
@@ -95,9 +95,9 @@
         "location": "Shop B17, Banex plaza, Wuse 2, Abuja.",
         "state": "FCT",
         "image": [
-            "/src/__tests__/iphone11_1.jfif",
-            "Profile Pic2.png",
-            "Profile Pic3.png"
+            "/src/__tests__/iphone11_1.jfif ",
+            "/src/__tests__/iphone11_2.jfif ",
+            "/src/__tests__/iphone11_1.jfif "
         ],
         "ownerId": 1
     }

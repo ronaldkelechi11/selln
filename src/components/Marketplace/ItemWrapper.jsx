@@ -4,9 +4,11 @@ import Item from "./Item";
 
 const ItemWrapper = () => {
     const [itemArrayList, setItemArrayList] = useState([])
+    const BACKEND_URL = "/src/__tests__/ads.json"
+
 
     useEffect(() => {
-        axios.get("/src/__tests__/ads.json",)
+        axios.get(BACKEND_URL,)
             .then((result) => {
                 console.log(result.data);
                 setItemArrayList(result.data)
