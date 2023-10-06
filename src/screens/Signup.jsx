@@ -4,12 +4,22 @@ import { AiOutlineLeft } from "react-icons/ai"
 import { useNavigate } from "react-router-dom"
 
 const Signup = () => {
+
+    return (
+        <SignupForm />
+    )
+}
+
+function SignupForm() {
     var itemStyling = "border-white bg-transparent placeholder:text-white outline-none text-[14px] text-white border p-2 rounded-xl md:border md:placeholder:text-black md:border-primary md:text-black font-poppins";
 
     const navigate = useNavigate()
 
     function goBack() {
         navigate("/")
+    }
+    function signup() {
+
     }
     function goToLogin() {
         navigate("/login")
@@ -21,10 +31,6 @@ const Signup = () => {
     const [password, setPassword] = useState("")
     const [address, setAddress] = useState("")
     const [about, setAbout] = useState("")
-
-    function signup() {
-
-    }
 
 
     return (
@@ -69,5 +75,4 @@ const Signup = () => {
         </div>
     )
 }
-
 export default Signup

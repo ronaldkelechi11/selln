@@ -1,8 +1,11 @@
-import React from 'react'
+/* eslint-disable react/prop-types */
 import { FaLocationPin } from "react-icons/fa6";
+import { Link } from "react-router-dom";
+
 const Item = ({ item }) => {
+
     return (
-        <div className='w-full h-[250px] max-h-[300px] rounded-xl shadow-md flex flex-col justify-evenly p-3'>
+        <Link to={`${item.name}/${item.id}`} className='w-full h-[250px] max-h-[300px] rounded-xl shadow-md flex flex-col justify-evenly p-3'>
             <img src={item.image[0]} className='h-[100px] md:h-[120px]' alt="" />
             <div className="flex flex-row justify-center gap-1">
                 <span className='text-primary font-billabong text-xl'>N</span>
@@ -15,7 +18,7 @@ const Item = ({ item }) => {
                 <FaLocationPin size={12} />
                 <div className="text-black font-bold font-billabong text-[12px]">{item.state}</div>
             </div>
-        </div>
+        </Link>
     )
 }
 

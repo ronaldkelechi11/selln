@@ -8,6 +8,7 @@ import Login from './screens/Login'
 import Cart from './screens/Cart'
 import CategoriesHome from './components/Marketplace/CategoriesHome'
 import ItemHome from './components/Marketplace/ItemHome'
+import ItemDescription from './components/Marketplace/ItemDescription'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
@@ -19,6 +20,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Route path='/marketplace'>
         <Route index element={<CategoriesHome />} />
         <Route path=':category' element={<ItemHome />} />
+        <Route path=':category/:itemname/:itemid' element={<ItemDescription />} />
       </Route>
     </Routes>
   </BrowserRouter>

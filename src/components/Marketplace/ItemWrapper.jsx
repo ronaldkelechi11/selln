@@ -10,7 +10,6 @@ const ItemWrapper = () => {
     useEffect(() => {
         axios.get(BACKEND_URL,)
             .then((result) => {
-                console.log(result.data);
                 setItemArrayList(result.data)
             }).catch((err) => {
                 console.log(err);
