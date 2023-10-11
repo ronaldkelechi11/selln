@@ -13,7 +13,7 @@ const CatergoriesWrapper = () => {
         { id: 9, name: "Health and Beauty" },
         { id: 10, name: "Vehicles" },
         { id: 11, name: "Recreation" },
-        { id: 12, name: "Books and Stationery" }
+        { id: 12, name: "Books" }
     ]
 
     return (

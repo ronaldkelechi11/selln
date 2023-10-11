@@ -1,34 +1,21 @@
 [
     {
-        "id": 1,
-        "name": "Ronald Kelechi",
-        "email": "ronaldkelechi11@gmail.com",
-        "phone": "+234 9066881954",
-        "password": "ssjssnssi22932!didjnxn€##jjhsjdnb",
-        "profilePic": "/src/assets/ceo.jpeg",
-        "about": "Seller of used Iphones and Laptops",
-        "location": {
-            "street": "",
-            "city": "",
-            "country": ""
+        "_id": "",
+        "name": "John Doe",
+        "phone": "+234 123456789",
+        "email": "johndoe@gmail.com",
+        "password": "myPassword",
+        "imageUrl": "",
+        "rating": "5",
+        "about": "",
+        "address": {
+            "street": "Ademole Adetokunbo Crescent.",
+            "city": "Wuse 2",
+            "state": "Abuja",
+            "zipCode": "900001"
         },
-        "ratings": "4.5",
-        "dateOfRegistration": "12th September. 2023.",
-        "ads": {
-            "id": 1,
-            "name": "Iphone 11",
-            "description": "Iphone 11 with Face id working. Battery health 100%. Small crack on the back glass.",
-            "price": "260,000",
-            "category": "Mobile Phones",
-            "dateOfUpload": "12th September, 2023",
-            "conditon": "Used",
-            "location": "Shop B17, Banex plaza, Wuse 2, Abuja.",
-            "image": [
-                "Profile Pic1.png",
-                "Profile Pic2.png",
-                "Profile Pic3.png"
-            ],
-            "ownerId": 1
-        }
+        "cart": [
+            {}
+        ]
     }
 ]

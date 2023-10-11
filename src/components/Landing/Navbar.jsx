@@ -12,7 +12,7 @@ const Navbar = () => {
         setIsOpen(!isOpen)
     }
     return (
-        <div className='h-auto bg-white z-50 w-full p-4 flex flex-wrap items-center justify-between fixed top-0 '>
+        <div className='h-auto bg-white z-50 w-full p-4 flex flex-wrap items-center justify-between sticky top-0 '>
             <NavLink reloadDocument className="text-primary text-3xl md:text-6xl font-billabong">Selln</NavLink>
             <div className="hidden md:flex flex-row gap-5 text-primary">
                 <NavLinks />
