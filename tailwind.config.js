@@ -8,7 +8,8 @@ export default {
 
       colors: {
         primary: "#96d700",
-        grey: "#c4c4c4"
+        grey: "#c4c4c4",
+        red: "rgb(255,112,110)"
       },
       fontFamily: {
         poppins: "Poppins",

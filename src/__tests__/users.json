@@ -7,7 +7,11 @@
         "password": "ssjssnssi22932!didjnxn€##jjhsjdnb",
         "profilePic": "/src/assets/ceo.jpeg",
         "about": "Seller of used Iphones and Laptops",
-        "location": "Shop B17, Banex plaza, Wuse 2, Abuja.",
+        "location": {
+            "street": "",
+            "city": "",
+            "country": ""
+        },
         "ratings": "4.5",
         "dateOfRegistration": "12th September. 2023.",
         "ads": {
