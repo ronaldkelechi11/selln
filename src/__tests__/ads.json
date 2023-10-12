@@ -1,103 +1,22 @@
 [
     {
         "id": 1,
-        "name": "Iphone 11",
-        "description": "Iphone 11 with Face id working. Battery health 100%. Small crack on the back glass.",
-        "price": "260,000",
+        "name": "Iphone 7plus",
+        "description": "Iphone 7plus with working touch ID. Battery health 100%. Small colouration on the screen and power button not working.",
+        "price": "50,000",
         "category": "Mobile Phones",
-        "dateOfUpload": "12th September, 2023",
+        "dateOfUpload": "12th October, 2023",
         "condition": "Used",
-        "location": "Shop B17, Banex plaza, Wuse 2, Abuja.",
-        "state": "FCT",
+        "location": {
+            "street": "Ademole Adetokunbo Crescent.",
+            "city": "Wuse 2",
+            "state": "FCT"
+        },
         "image": [
             "/src/__tests__/iphone11_1.jfif",
-            "Profile Pic2.png",
-            "Profile Pic3.png"
-        ],
-        "ownerId": 1
-    },
-    {
-        "id": 2,
-        "name": "Iphone X",
-        "description": "",
-        "price": "160,000",
-        "category": "Mobile Phones",
-        "dateOfUpload": "2th August, 2023",
-        "condition": "Used",
-        "location": "Shop B17, Banex plaza, Wuse 2, Abuja.",
-        "state": "Abuja",
-        "image": [
-            "/src/__tests__/iphonex_1.jfif ",
-            "/src/__tests__/iphonex_2.jfif ",
-            "/src/__tests__/iphonex_1.jfif "
-        ],
-        "ownerId": 32
-    },
-    {
-        "id": 3,
-        "name": "Iphone 12",
-        "description": "Iphone 11 with Face id working. Battery health 100%. Small crack on the back glass.",
-        "price": "260,000",
-        "category": "Mobile Phones",
-        "dateOfUpload": "12th September, 2023",
-        "condition": "Used",
-        "location": "Shop B17, Banex plaza, Wuse 2, Abuja.",
-        "state": "FCT",
-        "image": [
             "/src/__tests__/iphone11_1.jfif",
-            "Profile Pic2.png",
-            "Profile Pic3.png"
-        ],
-        "ownerId": 1
-    },
-    {
-        "id": 4,
-        "name": "Iphone 13",
-        "description": "Iphone 11 with Face id working. Battery health 100%. Small crack on the back glass.",
-        "price": "260,000",
-        "category": "Mobile Phones",
-        "dateOfUpload": "12th September, 2023",
-        "condition": "Used",
-        "location": "Shop B17, Banex plaza, Wuse 2, Abuja.",
-        "state": "FCT",
-        "image": [
             "/src/__tests__/iphone11_1.jfif",
-            "Profile Pic2.png",
-            "Profile Pic3.png"
-        ],
-        "ownerId": 1
-    },
-    {
-        "id": 5,
-        "name": "Iphone 14",
-        "description": "Iphone 11 with Face id working. Battery health 100%. Small crack on the back glass.",
-        "price": "260,000",
-        "category": "Mobile Phones",
-        "dateOfUpload": "12th September, 2023",
-        "condition": "Used",
-        "location": "Shop B17, Banex plaza, Wuse 2, Abuja.",
-        "state": "FCT",
-        "image": [
-            "/src/__tests__/iphone11_1.jfif",
-            "Profile Pic2.png",
-            "Profile Pic3.png"
-        ],
-        "ownerId": 1
-    },
-    {
-        "id": 6,
-        "name": "Iphone 15",
-        "description": "Iphone 11 with Face id working. Battery health 100%. Small crack on the back glass.",
-        "price": "260,000",
-        "category": "Mobile Phones",
-        "dateOfUpload": "12th September, 2023",
-        "condition": "Used",
-        "location": "Shop B17, Banex plaza, Wuse 2, Abuja.",
-        "state": "FCT",
-        "image": [
-            "/src/__tests__/iphone11_1.jfif ",
-            "/src/__tests__/iphone11_2.jfif ",
-            "/src/__tests__/iphone11_1.jfif "
+            "/src/__tests__/iphone11_1.jfif"
         ],
         "ownerId": 1
     }

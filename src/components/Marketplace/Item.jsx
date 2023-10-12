@@ -16,7 +16,7 @@ const Item = ({ item }) => {
 
             <div className="flex flex-row bg-grey rounded-xl p-2 self-start gap-1">
                 <FaLocationPin size={12} />
-                <div className="text-black font-bold font-billabong text-[12px]">{item.state}</div>
+                <div className="text-black font-bold font-billabong text-[12px]">{item?.location.state}</div>
             </div>
         </Link>
     )

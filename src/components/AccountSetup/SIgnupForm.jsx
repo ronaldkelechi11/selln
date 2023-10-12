@@ -10,9 +10,10 @@ const SignupForm = () => {
         navigate("/")
     }
 
-    function signup() {
-        // Save to sessionStorage then send avery detail to backend on AccountSetup to make sure everythingg is done at once
-
+    function signup(e) {
+        e.preventDefault()
+        var user = { name: name, email: email, phone: phone, password: password };
+        console.log(user);
     }
 
     function goToLogin() {
