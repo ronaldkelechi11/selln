@@ -10,7 +10,7 @@ const Cart = () => {
         <div className="flex flex-col w-screen h-screen">
             <Navbar />
 
-            {cartIsE1mpty &&
+            {cartIsEmpty &&
                 <EmptyCart />
             }
         </div>
