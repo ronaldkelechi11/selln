@@ -1,3 +1,4 @@
+import axios from 'axios'
 import { motion } from 'framer-motion'
 import { useState } from 'react'
 import { AiOutlineLeft } from 'react-icons/ai'
@@ -11,9 +12,9 @@ const SignupForm = () => {
     }
 
     function signup(e) {
-        e.preventDefault()
-        var user = { name: name, email: email, phone: phone, password: password };
-        console.log(user);
+        e.preventDefault();
+        sessionStorage.setItem(import.meta.env.VITE_SESSION_STORAGE_USER_OBJECT, JSON.stringify({ name: name, email: email, phone: phone, password: password }))
+        navigate("accountsetup")
     }
 
     function goToLogin() {
@@ -42,9 +43,9 @@ const SignupForm = () => {
                 <form className="w-full flex gap-5 flex-col">
                     <input className={itemStyling + " my_input"} type="text" placeholder="Name" value={name}
                         onChange={(e) => setName(e.target.value)} />
-                    <input className={itemStyling} type="text" placeholder="Email" value={email}
+                    <input className={itemStyling} type="email" placeholder="Email" value={email}
                         onChange={(e) => setEmail(e.target.value)} />
-                    <input className={itemStyling} type="text" placeholder="Phone" value={phone}
+                    <input className={itemStyling} type="tel" placeholder="Phone" value={phone}
                         onChange={(e) => setPhone(e.target.value)} />
                     <input className={itemStyling} type="password" placeholder="Password" value={password}
                         onChange={(e) => setPassword(e.target.value)} />

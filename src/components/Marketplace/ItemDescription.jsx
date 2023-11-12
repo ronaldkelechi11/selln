@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { FaCartPlus, FaStar, FaTruckPickup } from "react-icons/fa6";
-import { AiFillStar } from "react-icons/ai";
+import SimilarProducts from './SimilarProducts'
 
 const ItemDescription = () => {
     const BACKEND_URL = "/src/__tests__/ads.json"
@@ -94,7 +94,6 @@ const ItemDescription = () => {
 
 // eslint-disable-next-line react/prop-types
 function StarRating({ rating }) {
-    console.log(rating);
     return (
         <div className="flex justify-center items-center gap-1">
             <FaStar color={rating >= 1 ? "rgb(225,229,124)" : ""} />

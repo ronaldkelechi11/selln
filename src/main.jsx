@@ -9,7 +9,7 @@ import Cart from './screens/Cart'
 import CategoriesHome from './components/Marketplace/CategoriesHome'
 import ItemHome from './components/Marketplace/ItemHome'
 import ItemDescription from './components/Marketplace/ItemDescription'
-import AccountInfo from './components/AccountSetup/AccountInfo'
+import AccountInfo from './components/AccountSetup/AccountSetup'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
