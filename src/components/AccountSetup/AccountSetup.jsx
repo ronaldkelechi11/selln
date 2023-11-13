@@ -32,7 +32,7 @@ const AccountInfo = () => {
                 <div className="text-4xl md:text-5xl text-white md:text-primary font-billabong text-center">Account Setup</div>
                 <div className="text-xl text-white font-billabong md:text-3xl md:text-primary text-center">Complete this step to activate your account.</div>
                 <form className="w-full flex gap-5 flex-col">
-                    <div type="file" className="h-[100px] w-[100px] bg-white self-center rounded-[50%] file:text-[transparent] text-primary file:bg-white file:border-none flex justify-center  cursor-pointer items-center">
+                    <div type="file" className="h-[100px] w-[100px] bg-white self-center rounded-[50%] file:text-[transparent] text-primary file:bg-white file:border-none flex justify-center  cursor-pointer items-center md:bg-primary md:text-white">
                         <AiOutlineUser size={64} color="currentColor" />
                     </div>
                     <input className={itemStyling} type="text" placeholder="Street" />
