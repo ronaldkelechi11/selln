@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useState } from 'react'
-import { AiOutlineLeft } from 'react-icons/ai';
+import { FaArrowLeft } from 'react-icons/fa'
 import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
@@ -28,7 +28,7 @@ const Login = () => {
                 whileHover={{ scale: 1.3 }}
                 onClick={goBack}
                 className="cursor-pointer fixed top-5 left-5 w-10 h-10 rounded-lg flex justify-center items-center bg-white text-primary md:text-white md:bg-primary" >
-                <AiOutlineLeft size={24} color="currentColor" />
+                <FaArrowLeft size={24} color="currentColor" />
             </motion.div>
 
             <div className="w-full h-full flex flex-col justify-center items-center gap-2 md:w-[50%]">

@@ -4,7 +4,6 @@ import Item from "./Item";
 
 const ItemWrapper = () => {
     const [itemArrayList, setItemArrayList] = useState([])
-    const BACKEND_URL = "/src/__tests__/ads.json"
 
 
     useEffect(() => {
@@ -20,7 +19,7 @@ const ItemWrapper = () => {
     return (
         <div className='w-full h-screen bg-white grid grid-cols-2 md:grid-cols-5 md:p-5 p-3 gap-3'>
             {
-                itemArrayList.map(item => {
+                itemArrayList?.map(item => {
                     return (<Item key={item.id} item={item} />)
                 })
             }

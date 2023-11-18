@@ -1,3 +1,4 @@
+import { FaFilter } from "react-icons/fa6"
 
 
 const Searchbar = () => {
@@ -8,7 +9,7 @@ const Searchbar = () => {
                 className='rounded-[100px] w-[90%] md:w-[70%] outline-none text-[14px] font-poppins p-3 self-center'
                 type="text"
                 placeholder={"Search"} />
-        </div>
+        </div >
     )
 }
 
