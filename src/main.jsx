@@ -24,12 +24,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Route path='/login' element={<Login />} />
       <Route path='/cart' element={<Cart />} />
 
-      <Route path='/marketplace'>
-        <Route index element={<CategoriesHome />} />
-        <Route path=':category' element={<ItemHome />} />
-        <Route path=':category/:itemname/:itemid' element={<ItemDescription />} />
-      </Route>
-
     </Routes>
   </BrowserRouter>
 )

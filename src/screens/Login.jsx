@@ -4,6 +4,9 @@ import { FaArrowLeft } from 'react-icons/fa'
 import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
+    const [phone, setPhone] = useState("")
+    const [password, setPassword] = useState("")
+
     var itemStyling = "border-white bg-transparent placeholder:text-white outline-none text-[14px] text-white border p-2 rounded-xl md:border md:placeholder:text-black md:border-primary md:text-black font-poppins";
 
     const navigate = useNavigate()
@@ -11,17 +14,18 @@ const Login = () => {
     function goBack() {
         navigate("/")
     }
+
     function goToSignup() {
         navigate("/signup")
     }
 
-
-    const [phone, setPhone] = useState("")
-    const [password, setPassword] = useState("")
-
     function signup() {
-
+        var LoggingInUser = {
+            phone: phone,
+            password: password
+        }
     }
+
     return (
         <div className='bg-primary md:bg-white h-screen w-screen flex flex-col md:flex-row p-5'>
             <motion.div
