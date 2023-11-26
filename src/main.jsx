@@ -6,9 +6,6 @@ import Landing from './screens/Landing'
 import Signup from './screens/Signup'
 import Login from './screens/Login'
 import Cart from './screens/Cart'
-import CategoriesHome from './components/Marketplace/CategoriesHome'
-import ItemHome from './components/Marketplace/ItemHome'
-import ItemDescription from './components/Marketplace/ItemDescription'
 import AccountInfo from './components/AccountSetup/AccountSetup'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -22,8 +19,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       </Route>
 
       <Route path='/login' element={<Login />} />
-      <Route path='/cart' element={<Cart />} />
 
+      <Route path='/cart' element={<Cart />} />
     </Routes>
   </BrowserRouter>
 )

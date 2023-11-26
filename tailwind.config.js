@@ -18,10 +18,8 @@ export default {
       backgroundImage: {
         signupPattern: "url('/src/assets/signup.svg')",
         signinPattern: "url('/src/assets/signin.svg')",
-        wavePattern: "url('/src/assets/wave.svg')",
-        shoppingOnline: "url('/src/assets/shopping_online.svg')",
-        shoppingSales: "url('/src/assets/shopping_sales.jpg')",
-        ceo: "url('/src/assets/ceo.jpeg')",
+        s1Pattern: "url('/src/assets/images/S1.jpg')",
+        s2Pattern: "url('/src/assets/images/S2.jpg')"
       }
 
     },
