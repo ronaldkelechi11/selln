@@ -6,10 +6,10 @@ const Categories = () => {
     var categories = [
         { image: '/src/assets/images/furniture.jpg', name: 'Furniture' },
         { image: '/src/assets/images/mobile.jpg', name: 'Mobile phones' },
-        { image: '/src/assets/images/shoes.jpg', name: 'Shoes' },
         { image: '/src/assets/images/dress.jpg', name: 'Clothing' },
         { image: '/src/assets/images/laptop.jpg', name: 'Laptops' },
-        { image: '/src/assets/images/gadgets.jpg', name: 'Gadgets' },
+        { image: '/src/assets/images/smartwatch.jpg', name: 'Gadgets' },
+        { image: '/src/assets/images/shoes.jpg', name: 'Shoes' },
     ]
 
     return (

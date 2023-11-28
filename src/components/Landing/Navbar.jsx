@@ -4,10 +4,10 @@ import { AiOutlineSearch, AiOutlineShoppingCart, AiOutlineUser } from "react-ico
 const Navbar = () => {
 
     return (
-        <div className="bg-white w-screen h-16 flex flex-row justify-between items-center p-3">
+        <div className="bg-white w-screen sticky top-0 h-16 flex flex-row justify-between items-center p-3">
 
             {/* Navbar Icon (visible in mobile) */}
-            <Link reloadDocument className="font-billabong text-4xl text-primary stroke-black">Selln</Link>
+            <Link reloadDocument to={'/'} className="font-billabong text-4xl text-primary stroke-black">Selln</Link>
 
             {/* Custom Search Bar (not visible in mobile)*/}
             <SearchBar />
@@ -18,7 +18,7 @@ const Navbar = () => {
                 <Link> <AiOutlineUser color="currentColor" /> </Link>
                 <Link to={'/cart'}> <AiOutlineShoppingCart color="currentColor" /> </Link>
             </div>
-        </div>
+        </div >
     )
 }
 
