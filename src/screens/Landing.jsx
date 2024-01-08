@@ -2,7 +2,7 @@ import Ads from "../components/Landing/Ads"
 import Categories from "../components/Landing/Categories"
 import Navbar from "../components/Landing/Navbar"
 import AdWrapper from "../components/Landing/AdWrapper"
-import CallToAction from "../components/Landing/CallToAction"
+import Testimony from "../components/Landing/Testimony"
 
 
 const Landing = () => {
@@ -34,9 +34,10 @@ const Landing = () => {
 
             <AdWrapper />
 
-            <CallToAction />
+            <Testimony />
         </div>
     )
 }
+
 
 export default Landing
